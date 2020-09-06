@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Diana Tineo FullStack Developer</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -24,14 +25,13 @@
     </nav>
 
   </section>
-  <!--Main Section here containing intro, about, contact-->
   <main>
-    <section class="intro">
+    <section class="intro" id="intro">
       <h4>Intro</h4>
       <div>
         Hello, I am Diana Tineo, FullStack Web Developer, located in the North East Region. I enjoy the outdoors,
         nature and have a passion for creating amazing web content. Currently in the process of completing the
-        Engineering immersion bootcamp at Thinkful.
+        Engineering immersion boot-camp at Thinkful.
       </div>
     </section>
     <hr />
@@ -48,6 +48,17 @@
         I am looking forward to joining a team of like-minded individuals with whom I can collaborate, and create
         successful projects all while sharing knowledge and growing as professionals in the process.
       </div>
+      <div class="social-media">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/diana-tineo-6078335b/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:42px"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/Dianase" target="_blank"><i class="fa fa-github" style="font-size:42px"></i></a>
+          </li>
+          <li><a href="mailto:diana.tineo1@gmail.com"><i class="fa fa-envelope" style="font-size:36px"></i></a></li>
+        </ul>
+      </div>
     </section>
     <hr />
 
@@ -56,47 +67,39 @@
     <section class="projects" id="projects">
       <div>
         <h3>QuizApp</h3>
-        <div>It an app that allows the user to take a Quiz and see the results at the end.</div>
-        <a href="">Code</a>
+        <div>An app that allows the user to take a Quiz and see the results at the end.</div>
+        <div class="technologies">Technologies used: Node.js, Html5, CSS3<a href="">Code</a></div>
       </div>
       <div>
         <h3>My Shopping List</h3>
         <div>This application allows user to make a list of items, check, modify and delete items on the list.</div>
-        <a href="">Code</a>
+        <div class="technologies">Technologies used: React, JSX, CSS3<a href="">Code</a></div>
       </div>
       <div>
         <h3>My Bookmark App</h3>
         <div>This app allows user to bookmark their favorite websites and to give it a rating.</div>
-        <a href="">Code</a>
+        <div class="technologies">Technologies used: Javascript ES6, Html5, CSS3<a href="">Code</a></div>
       </div>
-          </section>
+
+    </section>
     <section class="contact-info" id="contact">
       <h4>Contact</h4>
       <div class="form">
         <div>For inquiries, please provide your info below:</div>
-      <br/>
+        <br />
         <form action="https://formspree.io/xwkrywzo" method="post">
           <div><label for="name">Name</label><input id="name" type="text" name="your-name" /></div>
           <div><label for="email-address">Email</label><input id="email-address" type="text" name="your-email" /></div>
           <div><label for="comments">Comments</label><input id="comments" type="text" name="your-comments" /></div>
           <button type="submit">Submit</button>
         </form>
-        <div class="social-media">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/diana-tineo-6078335b/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/Dianase" target="_blank">GitHub</a>
-            </li>
-            <li><a href="mailto:diana.tineo1@gmail.com">Email</a></li>
-          </ul>
-        </div>
+
       </div>
     </section>
   </main>
   <hr />
   <footer>
+
     <div class="footer">Written and designed by Diana Tineo with HTML, CSS</div>
   </footer>
   <script src="script.js"></script>

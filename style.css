@@ -79,11 +79,18 @@ main {
   color: antiquewhite;
   font-size: 25px;
 }
+
 hr{
   border: 0;
   height: 0; /* Firefox... */
   box-shadow: 0 0 10px 1px black;
 }
+
+.intro{
+  display:flex;
+  padding:40px;
+}
+
 #about{
   background-color:rgb(48, 168, 179);
   color:rgb(1, 1, 37);
@@ -91,50 +98,61 @@ hr{
   padding:40px;
   
 }
+
 #contact{
   background-color: rgb(48, 168, 179);
   color:rgb(1, 1, 37);
   display: flex;
   text-align: center;
 }
+
 h3 {
   padding: 0;
   margin: 0;
 }
+
 div{
   display:flex;
   flex-direction: column;
   justify-content: center;
 
 }
+
 a:link {
   color: antiquewhite;
   font-size: 20px;
 
 }
+
 .image{
   display: flex;
   flex-direction:row;
 }
+
 img {
   border-radius: 50%;
   height: 170px;
   width: 170px;
+  margin-bottom:30px;
 }
+
 form{
   display:flex;
   flex-direction: column;
   border: antiquewhite groove; 
   width:40%;  
 }
+
 .form{
   display:flex;
   align-items: center;
 }
+
 input {
-  margin: 10px;
+ margin: 10px;
  justify-items: center;
 }
+
 button{
   width: 40%;
   display: inline-block;
@@ -146,11 +164,17 @@ button{
   display: flex;
   flex-direction: column;
   
-  }
+}
 
-  .projects div{
-    padding:20px;
-  }
+.projects div{
+  padding:20px;
+}
+
+.technologies{
+  font-family: monospace;
+  color:rgb(48, 168, 179);
+}
+
 
 footer div {
   color: antiquewhite;
