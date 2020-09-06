@@ -1,7 +1,5 @@
 html,
 body {
-  
- 
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -29,7 +27,7 @@ header{
 }
 
 h1 {
-  color: palevioletred;
+  color: rgb(223, 202, 83);
   font-size: 60px; 
 	}
 
@@ -74,6 +72,7 @@ nav ul li a {
   font-weight: bold;
   color: antiquewhite;
   flex-direction: row;
+  font-size:30px;
 }
 
 main {
@@ -92,6 +91,12 @@ hr{
   padding:40px;
   
 }
+#contact{
+  background-color: rgb(48, 168, 179);
+  color:rgb(1, 1, 37);
+  display: flex;
+  text-align: center;
+}
 h3 {
   padding: 0;
   margin: 0;
@@ -103,7 +108,7 @@ div{
 
 }
 a:link {
-  color: white;
+  color: antiquewhite;
   font-size: 20px;
 
 }
@@ -119,19 +124,23 @@ img {
 form{
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
   border: antiquewhite groove; 
-  width:40%;
+  width:40%;  
 }
-
+.form{
+  display:flex;
+  align-items: center;
+}
 input {
   margin: 10px;
  justify-items: center;
 }
 button{
   width: 40%;
-  display: flex;
+  display: inline-block;
   align-self: center;
+  background-color: antiquewhite;
+  text-align: center;
 }
 .projects{
   display: flex;
@@ -145,8 +154,8 @@ button{
 
 footer div {
   color: antiquewhite;
-  height: 50px;
-  margin: 50px;
+  height: 30px;
+  margin: 30px;
   align-items: center;
 }
 
@@ -172,10 +181,5 @@ h4 {
 }
 footer{
   display:flex;
-  
-}
-.footer{
-  flex-direction:row;
-  text-align:center;
-  justify-content: center;
+  justify-content: flex-end;
 }
