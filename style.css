@@ -75,10 +75,7 @@ nav ul li a {
   color: antiquewhite;
   flex-direction: row;
 }
-ol {
-  display:flex;
-  justify-content: space-between;
-  }
+
 main {
   color: antiquewhite;
   font-size: 25px;
@@ -89,31 +86,47 @@ hr{
   box-shadow: 0 0 10px 1px black;
 }
 #about{
-  background-color: rgb(236, 145, 145);
+  background-color:rgb(48, 168, 179);
   color:rgb(1, 1, 37);
-  opacity: 0.8;
+  opacity: 0.9;
+  padding:40px;
+  
 }
 h3 {
   padding: 0;
   margin: 0;
 }
+div{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 
+}
 a:link {
   color: white;
   font-size: 20px;
 
 }
-
+.image{
+  display: flex;
+  flex-direction:row;
+}
 img {
   border-radius: 50%;
   height: 170px;
   width: 170px;
-  
 }
 form{
   display:flex;
   flex-direction: column;
   justify-content: space-around;
+  border: antiquewhite groove; 
+  width:40%;
+}
+
+input {
+  margin: 10px;
+ justify-items: center;
 }
 button{
   width: 40%;
@@ -123,39 +136,12 @@ button{
 .projects{
   display: flex;
   flex-direction: column;
+  
   }
 
   .projects div{
     padding:20px;
   }
-p {
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-  width:50%;
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-
-
-form {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-label {
-  text-align: right;
-  width: 50%;
-}
-
-input {
-  margin: 0 0 10px 10px;
-  width: 50%;
-  justify-items: center;
-}
 
 footer div {
   color: antiquewhite;
